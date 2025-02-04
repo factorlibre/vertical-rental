@@ -278,7 +278,7 @@ msgid ""
 "Incoming shipment is in state %s. You cannot change"
 "                                         the end date anymore."
 msgstr ""
-"El envío entrante está en estado %s. No puede cambiar"
+"El albarán está en estado %s. No puede cambiar"
 "                                         la fecha de fin más."
 
 #. module: rental_base
@@ -414,7 +414,7 @@ msgid ""
 "Outgoing shipment is in state %s. You cannot change"
 "                                         the start date anymore."
 msgstr ""
-"El envío saliente está en estado %s. No puede cambiar"
+"El albarán está en estado %s. No puede cambiar"
 "                                         la fecha de inicio más."
 
 #. module: rental_base

@@ -239,7 +239,7 @@
                 <field name="name" nolabel="1" colspan="2" />
             </xpath>
             <xpath
-                expr="//group//field[@name='analytic_distribution']"
+                expr="//group//field[@name='analytic_distribution']/.."
                 position="inside"
             >
                 <!-- Group: Rental Settings -->
