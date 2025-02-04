@@ -239,8 +239,8 @@
                 <field name="name" nolabel="1" colspan="2" />
             </xpath>
             <xpath
-                expr="//group//field[@name='analytic_distribution']/.."
-                position="inside"
+                expr="//group//field[@name='analytic_distribution']"
+                position="after"
             >
                 <!-- Group: Rental Settings -->
                 <group id="rental_settings" string="Rental Settings" colspan="4">
