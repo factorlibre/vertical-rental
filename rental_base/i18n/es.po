@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-04 23:30+0000\n"
-"PO-Revision-Date: 2025-02-04 23:30+0000\n"
+"POT-Creation-Date: 2025-02-09 22:29+0000\n"
+"PO-Revision-Date: 2025-02-09 22:29+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr ""
 #. module: rental_base
 #: model_terms:ir.ui.view,arch_db:rental_base.sale_start_end_dates
 msgid "<i class=\"fa fa-long-arrow-right\" aria-label=\"Arrow icon\" title=\"Arrow\"/>"
-msgstr "<i class=\"fa fa-long-arrow-right\" aria-label=\"Arrow icon\" title=\"Arrow\"/>"
+msgstr ""
 
 #. module: rental_base
 #. odoo-python
@@ -41,8 +41,6 @@ msgid ""
 "<li>%(name)s: %(start_date)s - %(end_date)s->%(date_start)s - "
 "%(date_end)s</li>"
 msgstr ""
-"<li>%(name)s: %(start_date)s - %(end_date)s->%(date_start)s - "
-"%(date_end)s</li>"
 
 #. module: rental_base
 #. odoo-python
@@ -61,8 +59,6 @@ msgid ""
 "<li>(Lines: %(from_line)s - %(to_line)s): %(default_start_date)s - "
 "%(default_end_date)s -> %(date_start)s - %(date_end)s</li>"
 msgstr ""
-"<li>(Líneas: %(from_line)s - %(to_line)s): %(default_start_date)s - "
-"%(default_end_date)s -> %(date_start)s - %(date_end)s</li>"
 
 #. module: rental_base
 #: model_terms:ir.ui.view,arch_db:rental_base.view_order_form
@@ -91,8 +87,6 @@ msgstr ""
 #. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_product_product__rental
 #: model:ir.model.fields,field_description:rental_base.field_product_template__rental
-#: model:ir.model.fields,field_description:rental_base.field_shopify_product_product__rental
-#: model:ir.model.fields,field_description:rental_base.field_shopify_product_template__rental
 msgid "Can be Rent"
 msgstr "Puede ser Alquilado"
 
@@ -150,12 +144,6 @@ msgid "Customer Invoices"
 msgstr "Facturas del Cliente"
 
 #. module: rental_base
-#: model:ir.ui.menu,name:rental_base.menu_customers
-#: model:ir.ui.menu,name:rental_base.menu_top_customer
-msgid "Customers"
-msgstr "Clientes"
-
-#. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_update_sale_line_date__date_end
 #: model:ir.model.fields,field_description:rental_base.field_update_sale_line_date_line__date_end
 msgid "Date End"
@@ -179,22 +167,16 @@ msgstr "Día(s)"
 
 #. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_sale_order__default_end_date
-#: model:ir.model.fields,field_description:rental_base.field_shopify_sale_order__default_end_date
-#: model:ir.model.fields,field_description:rental_base.field_zakeke_sale_order__default_end_date
 msgid "Default End Date"
 msgstr "Fecha final por defecto"
 
 #. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_sale_order__default_start_date
-#: model:ir.model.fields,field_description:rental_base.field_shopify_sale_order__default_start_date
-#: model:ir.model.fields,field_description:rental_base.field_zakeke_sale_order__default_start_date
 msgid "Default Start Date"
 msgstr "Fecha de inicio por defecto"
 
 #. module: rental_base
 #: model:ir.model.fields,help:rental_base.field_sale_order_line__rental_qty_uom
-#: model:ir.model.fields,help:rental_base.field_shopify_sale_order_line__rental_qty_uom
-#: model:ir.model.fields,help:rental_base.field_zakeke_sale_order_line__rental_qty_uom
 msgid "Default unit of measure used for all stock operations."
 msgstr ""
 "Unidad de medida predeterminada utilizada para todas las operaciones de "
@@ -235,8 +217,6 @@ msgstr "Nombre para Mostrar"
 
 #. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_sale_order_line__end_date
-#: model:ir.model.fields,field_description:rental_base.field_shopify_sale_order_line__end_date
-#: model:ir.model.fields,field_description:rental_base.field_zakeke_sale_order_line__end_date
 msgid "End Date"
 msgstr "Fecha Final"
 
@@ -289,7 +269,7 @@ msgstr ""
 #: model:ir.ui.menu,name:rental_base.menu_customer_delivery_incoming
 #: model:ir.ui.menu,name:rental_base.menu_vendor_delivery_incoming
 msgid "Incoming Deliveries"
-msgstr "Entregas Entrantes"
+msgstr "Albaranes Entrantes"
 
 #. module: rental_base
 #. odoo-python
@@ -298,7 +278,6 @@ msgstr "Entregas Entrantes"
 msgid ""
 "Incoming shipment is in state %s. You cannot change the end date anymore."
 msgstr ""
-"La entrega entrate está en estado %s. No puedes cambiar la fecha fin."
 
 #. module: rental_base
 #: model_terms:ir.ui.view,arch_db:rental_base.view_order_form
@@ -356,8 +335,6 @@ msgid ""
 "On the \"new rental\" sale order line with product \"%(name)s\", we should "
 "have a rental service product!"
 msgstr ""
-"On the \"new rental\" sale order line with product \"%(name)s\", we should "
-"have a rental service product!"
 
 #. module: rental_base
 #. odoo-python
@@ -430,7 +407,7 @@ msgstr "Pedidos"
 #: model:ir.ui.menu,name:rental_base.menu_customer_delivery_outgoing
 #: model:ir.ui.menu,name:rental_base.menu_vendor_delivery_outgoing
 msgid "Outgoing Deliveries"
-msgstr "Entregas Salientes"
+msgstr "Albaranes Salientes"
 
 #. module: rental_base
 #. odoo-python
@@ -455,8 +432,6 @@ msgstr "Producto"
 
 #. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_sale_order_line__rental_qty_uom
-#: model:ir.model.fields,field_description:rental_base.field_shopify_sale_order_line__rental_qty_uom
-#: model:ir.model.fields,field_description:rental_base.field_zakeke_sale_order_line__rental_qty_uom
 msgid "Product Unit of Measure"
 msgstr "Unidad de Medida del Producto"
 
@@ -480,12 +455,10 @@ msgstr "Productos"
 #. module: rental_base
 #: model:ir.ui.menu,name:rental_base.menu_customer_quotations
 msgid "Quotations"
-msgstr "Cotizaciones"
+msgstr "Presupuestos"
 
 #. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_sale_order_line__rental
-#: model:ir.model.fields,field_description:rental_base.field_shopify_sale_order_line__rental
-#: model:ir.model.fields,field_description:rental_base.field_zakeke_sale_order_line__rental
 #: model_terms:ir.ui.view,arch_db:rental_base.res_config_settings_view_form
 msgid "Rental"
 msgstr "Alquiler"
@@ -515,7 +488,7 @@ msgstr "Cantidad de Alquiler"
 #: model:ir.actions.act_window,name:rental_base.action_rental_quotations
 #: model:ir.ui.menu,name:rental_base.menu_rental_quotations
 msgid "Rental Quotations"
-msgstr "Cotizaciones de Alquiler"
+msgstr "Presupuestos de Alquiler"
 
 #. module: rental_base
 #: model_terms:ir.ui.view,arch_db:rental_base.view_order_form
@@ -538,6 +511,11 @@ msgid "Rentals"
 msgstr "Alquileres"
 
 #. module: rental_base
+#: model:ir.ui.menu,name:rental_base.menu_top_customer
+msgid "Sale Orders"
+msgstr "Pedidos"
+
+#. module: rental_base
 #: model:ir.model,name:rental_base.model_sale_order
 msgid "Sales Order"
 msgstr "Pedido de venta"
@@ -545,7 +523,7 @@ msgstr "Pedido de venta"
 #. module: rental_base
 #: model:ir.model,name:rental_base.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Línea de Orden de Venta"
+msgstr "Línea de pedido de venta"
 
 #. module: rental_base
 #: model:ir.model,name:rental_base.model_ir_sequence
@@ -565,20 +543,7 @@ msgid "Settings"
 msgstr "Configuración"
 
 #. module: rental_base
-#: model:ir.model.fields,field_description:rental_base.field_ir_sequence__smart_search
-#: model:ir.model.fields,field_description:rental_base.field_product_product__smart_search
-#: model:ir.model.fields,field_description:rental_base.field_product_template__smart_search
-#: model:ir.model.fields,field_description:rental_base.field_sale_order__smart_search
-#: model:ir.model.fields,field_description:rental_base.field_sale_order_line__smart_search
-#: model:ir.model.fields,field_description:rental_base.field_update_sale_line_date__smart_search
-#: model:ir.model.fields,field_description:rental_base.field_update_sale_line_date_line__smart_search
-msgid "Smart Search"
-msgstr "Búsqueda inteligente"
-
-#. module: rental_base
 #: model:ir.model.fields,field_description:rental_base.field_sale_order_line__start_date
-#: model:ir.model.fields,field_description:rental_base.field_shopify_sale_order_line__start_date
-#: model:ir.model.fields,field_description:rental_base.field_zakeke_sale_order_line__start_date
 msgid "Start Date"
 msgstr "fecha de inicio"
 

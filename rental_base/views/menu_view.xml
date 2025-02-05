@@ -84,7 +84,7 @@
     />
 
     <menuitem
-        name="Customers"
+        name="Sale Orders"
         id="menu_top_customer"
         parent="menu_rental_root"
         sequence="10"
