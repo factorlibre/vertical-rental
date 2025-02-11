@@ -85,21 +85,21 @@
 
     <menuitem
         name="Sale Orders"
-        id="menu_top_customer"
+        id="menu_top_orders"
         parent="menu_rental_root"
         sequence="10"
     />
         <menuitem
         name="Customers"
         id="menu_customers"
-        parent="menu_top_customer"
+        parent="menu_top_orders"
         action="account.res_partner_action_customer"
         sequence="0"
     />
             <menuitem
         name="Quotations"
         id="menu_customer_quotations"
-        parent="menu_top_customer"
+        parent="menu_top_orders"
         sequence="5"
     />
                 <menuitem
@@ -112,7 +112,7 @@
             <menuitem
         name="Orders"
         id="menu_customer_orders"
-        parent="menu_top_customer"
+        parent="menu_top_orders"
         sequence="10"
     />
                 <menuitem
@@ -125,7 +125,7 @@
             <menuitem
         name="Delivery"
         id="menu_customer_delivery"
-        parent="menu_top_customer"
+        parent="menu_top_orders"
         sequence="15"
     />
                 <menuitem
@@ -145,7 +145,7 @@
             <menuitem
         name="Invoices"
         id="menu_customer_invoices"
-        parent="menu_top_customer"
+        parent="menu_top_orders"
         sequence="20"
     />
                 <menuitem
