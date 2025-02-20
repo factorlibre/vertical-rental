@@ -79,7 +79,7 @@
     <menuitem
         name="Rentals"
         id="menu_rental_root"
-        sequence="5"
+        sequence="50"
         web_icon="rental_base,static/description/icon.png"
     />
 
