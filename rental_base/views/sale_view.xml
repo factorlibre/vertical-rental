@@ -27,7 +27,7 @@
     <record id="sale_start_end_dates" model="ir.ui.view">
         <field name="name">rental_base.sale_start_end_dates</field>
         <field name="model">sale.order</field>
-        <field name="priority">15</field>
+        <field name="priority">16</field>
         <!--Priority greater than 100-->
         <field name="inherit_id" ref="sale_start_end_dates.view_order_form" />
         <field name="mode">primary</field>
@@ -86,10 +86,12 @@
             </xpath>
         </field>
     </record>
-    <record id="view_order_form" model="ir.ui.view">
+    <record id="view_rental_order_form" model="ir.ui.view">
         <field name="name">rental_base.view_order_form</field>
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="mode">primary</field>
+        <field name="priority">15</field>
         <field name="arch" type="xml">
             <!-- Sale Order -->
             <!-- Button Header -->
