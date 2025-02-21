@@ -181,6 +181,7 @@
     <field name="name">Rentals</field>
     <field name="res_model">sale.rental</field>
     <field name="view_mode">tree,form,pivot</field>
+    <field name="view_id" ref="view_order_form" />
 </record>
 
 <menuitem
